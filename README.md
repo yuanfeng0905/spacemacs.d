@@ -31,8 +31,30 @@ dotspacemacs-configuration-layer-path '("~/spacemacs.d/")
 ```
 dotspacemacs-configuration-layers '(fidding）
 ```
+3. 移除一些插件(根据个人情况)
+```
+   dotspacemacs-excluded-packages
+   '(
+     magit-gh-pulls magit-gitflow org-projectile evil-mc realgud
+     evil-args evil-ediff evil-exchange evil-unimpaired
+     evil-indent-plus volatile-highlights
+     holy-mode skewer-mode rainbow-delimiters
+     highlight-indentation vi-tilde-fringe eyebrowse
+     org-bullets smooth-scrolling org-repo-todo org-download org-timer
+     livid-mode git-gutter git-gutter-fringe  evil-escape
+     leuven-theme gh-md evil-lisp-state spray lorem-ipsum symon
+     ac-ispell ace-jump-mode auto-complete auto-dictionary
+     clang-format define-word google-translate disaster epic
+     fancy-battery org-present orgit orglue spacemacs-theme
+     helm-flyspell flyspell-correct-helm clean-aindent-mode
+     helm-c-yasnippet ace-jump-helm-line helm-make magithub
+     helm-themes helm-swoop helm-spacemacs-help smeargle
+     ido-vertical-mode flx-ido company-quickhelp counsel-projectile
+     )
+```
 
 ## 都有什么
+
 **插件**
 
 1. dracula-theme主题
